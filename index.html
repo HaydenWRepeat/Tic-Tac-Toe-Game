@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='author' content='Hayden Wiechens'>
+    <meta name='description' content=''>
+    <meta name='viewport' content='width=device-width' initial='1.0'>
+
+    <meta property=' og:image ' content=' '>
+    <meta property=' og:title ' content=' '>
+    <meta property=' og:description ' content=' '>
+
+    <title>Tic-Tac-Toe</title>
+    <link rel=' stylesheet ' href=' style.css '>
+    <link rel=' shortcut icon ' href=' ' type=' image/x-icon '>
+</head>
+
+<body>
+    <section>
+        <p id="player">Player: X</p>
+        <p id="turns">Turns: 1</p>
+        <!-- Board -->
+    </section>
+    <section>
+        <p>Wins</p>
+        <p>X: </p>
+        <p>O: </p>
+    </section>
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        <div class="board">
+            <div id="block0" class="block" onclick="TTT('block0')"></div>
+            <div id="block1" class="block" onclick="TTT('block1')"></div>
+            <div id="block2" class="block" onclick="TTT('block2')"></div>
+            <div id="block3" class="block" onclick="TTT('block3')"></div>
+            <div id="block4" class="block" onclick="TTT('block4')"></div>
+            <div id="block5" class="block" onclick="TTT('block5')"></div>
+            <div id="block6" class="block" onclick="TTT('block6')"></div>
+            <div id="block7" class="block" onclick="TTT('block7')"></div>
+            <div id="block8" class="block" onclick="TTT('block8')"></div>
+        </div>
+    </div>
+    <button onclick="reset()">Reset</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
